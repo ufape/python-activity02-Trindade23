@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.python39Packages.pytest_5
     pkgs.python39Packages.pytest_6_1
     pkgs.python39Packages.pytest_4
     pkgs.python39Packages.pytest_4
